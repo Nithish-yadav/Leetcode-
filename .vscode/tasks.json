@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C/C++: g++.exe build active file",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "${file}", // Ensures that the active file is used
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe" // Ensures the output exe is in the same folder
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Generated task for g++"
+    },
+    {
+      "label": "C/C++: g++.exe build and debug active file",
+      "type": "cppbuild",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Generated task for building active file"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "C_Cpp.debugShortcut": true,
+  "C_Cpp.debugger.useBacktickCommandSubstitution": false,
+  "files.associations": {
+    "iostream": "cpp"
+  }
+}
