@@ -18,7 +18,6 @@ int main()
 
     int l = i + 1;
 
-    cout << "Unique elements: ";
     for (int k = 0; k < l; k++)
     {
         cout << nums[k] << " ";
