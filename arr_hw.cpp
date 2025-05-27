@@ -15,10 +15,11 @@ void sumpro(int arr[], int size)
     cout << "The sum of all numbers in array is: " << sum << endl;
     cout << "The product of all numbers in array is: " << pro << endl;
 }
+
 void minmax(int arr[], int size)
 {
-    int small = INT_MAX;
-    int large = INT_MIN;
+    int small = INT_MAX; //+inf
+    int large = INT_MIN; //-inf
     int mini;
     int maxi;
     for (int i = 0; i < size; i++)
@@ -45,6 +46,7 @@ void minmax(int arr[], int size)
     }
     cout << endl;
 }
+
 void unique(int arr[], int size)
 {
 
