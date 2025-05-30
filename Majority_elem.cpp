@@ -9,6 +9,11 @@ int main()
     return 0;
 }
 
+// Sorting Approach
+// sort(nums.begin(), nums.end());
+// return nums[nums.size() / 2];
+
+//
 // Brute Force
 //  int n = vec.size();
 //  for (int val : vec)
