@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Two Pointers
+// Two Pointers method
 int main()
 {
     vector<int> nums = {0, 1, 0, 3, 12};
