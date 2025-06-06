@@ -5,8 +5,8 @@ int main()
 {
     int arr[6] = {7, 1, 5, 3, 6, 4};
     int size = sizeof(arr) / sizeof(int);
-    int maxProfit = 0, bestBuy = arr[0]; // 7
-
+    int maxProfit = 0, bestBuy = arr[0];
+    // 7
     for (int i = 1; i < size; i++)
     {
 
