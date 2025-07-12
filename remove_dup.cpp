@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    // Two-Pointer
     vector<int> nums = {1, 1, 2, 3};
     int i = 0;
 

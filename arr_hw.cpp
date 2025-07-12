@@ -5,15 +5,15 @@ using namespace std;
 void sumpro(int arr[], int size)
 {
     int sum = 0;
-    int pro = 1;
+    int prod = 1;
     for (int i = 0; i < size; i++)
     {
         sum += arr[i];
-        pro *= arr[i];
+        prod *= arr[i];
     }
 
     cout << "The sum of all numbers in array is: " << sum << endl;
-    cout << "The product of all numbers in array is: " << pro << endl;
+    cout << "The product of all numbers in array is: " << prod << endl;
 }
 
 void minmax(int arr[], int size)
@@ -49,7 +49,7 @@ void minmax(int arr[], int size)
 
 void unique(int arr[], int size)
 {
-
+    // 1, 2, 3, 4, 1, 2, 3
     for (int i = 0; i < size; i++)
     {
         bool isUnique = true;
@@ -73,10 +73,13 @@ void unique(int arr[], int size)
 
 void intersec(int arr1[], int sz1, int arr2[], int sz2)
 {
+    // arr1 = [ 1, 2, 2, 4 ]
+    // arr2 = [ 1, 2, 2, 7, 8 ]
     for (int i = 0; i < sz1; i++)
     {
         for (int j = 0; j < sz2; j++)
         {
+
             if (arr1[i] == arr2[j])
             {
                 cout << arr1[i] << " ";

@@ -7,7 +7,7 @@ int main()
     int arr[5] = {1, 2, 3, 4, 5};
 
     // Time- O(n)
-    int maxSum = INT_MIN; //-infinity
+    int maxSum = INT_MIN; //-inf
     int curSum = 0;
 
     for (int i = 0; i < n; i++)
